@@ -1,0 +1,30 @@
+
+
+.btn-primary{
+    background-color: aqua;
+    color: azure;
+    font-size: 18px;
+    margin-right: 20px;
+    border-radius: 7px;
+    padding: 20px;
+    border: #fff;
+}
+.btn-primary:hover{
+    color: #000;
+    background-color: blue;
+}
+.btn-secondary{
+    background-color: aquamarine;
+    color: antiquewhite;
+    font-size: 18px;
+    margin-right: 20px;
+    border-radius: 7px;
+    padding: 20px;
+    border:#fff
+}
+.btn-secondary:hover{
+    color:#000;
+    background-color: aqua;
+
+}
+

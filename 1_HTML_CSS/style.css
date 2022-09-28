@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(238, 230, 230);
+
+
+
+}
+label{
+    color: aqua;
+
+}
+p.solid {border-style: solid;}
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  div {
+    border: 1px solid red;
+  }
+  .display ul {list-style: none;
+  }li a{
+    display: inline;
+    padding-right: 20px;
+    text-decoration: none;
+    
+  }

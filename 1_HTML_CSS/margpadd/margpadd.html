@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Padding</title>
+    <link rel="stylesheet" href="margpadd.css">
+</head>
+<body>
+    <div class="main">
+        <img src="https://t3.ftcdn.net/jpg/04/68/39/38/360_F_468393845_sCLxRJYwTOfTqspoyXpQ0qhVgKdPktsn.jpg" width="100px" id="img">
+    
+        
+    </div>
+    <button onclick="increasemargin()">Increase margin</button>
+    <button onclick="decreasemargin()">Decrease margin </button>
+    <button onclick="increasepadding()">Increase padding</button>
+    <button onclick="decreasepadding()">Decrease padding</button>
+
+
+    
+    
+</body>
+<script>
+    let img=document.getElementById("img");//variable ma element store gareko //storing variable in element
+    let margin=10;
+    let padding=10;
+    function increasemargin() {
+        margin=margin+10;
+        img.style="margin:"+margin+"px;";//string ra integer  lai jordeko
+    }
+    function decreasemargin(){
+        margin=margin-10;
+        img.style="margin:"+margin+"px;";
+    }
+    function increasepadding(){
+        padding=padding+10;
+        img.style="padding:"+padding+"px;";
+
+    }
+    function decreasepadding(){
+        padding=padding-10;
+        img.style="padding:"+padding+"px;";
+    }
+</script>
+</html>
